@@ -12,4 +12,4 @@ class Room(models.Model):
     
 class Player(models.model):
     name = models.CharField()
-    armor = models.
+    
