@@ -16,7 +16,6 @@ class Monster(models.Model):
     room = models.ForeignKey(Room, on_delete=models.CASCADE)
 
 class Player(models.Model):
-    name = models.CharField(max_length=20)
     attack = models.IntegerField()
     defense = models.IntegerField()
     health = models.IntegerField(default=100)
